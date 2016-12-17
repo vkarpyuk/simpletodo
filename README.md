@@ -7,6 +7,7 @@ A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jque
 
 * [Node.js](https://nodejs.org) - Download and Install Node.js
 * [MongoDb](https://www.mongodb.com/) - Download and Install mongodb
+* If you don't want to install mongo locally you can set up a free account on [MLAB](https://mlab.com/). In routs/api.js you cant find an example of this.
 
 ## Step to configure
 1. Clone or fork this project
