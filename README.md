@@ -34,5 +34,5 @@ pm2 start server.js --name theNameYouWant
 Go and open your favorite browser. The simpletodo app with be available on **localhost:8000**
 
 ## Live Example
-[example](104.236.92.145:8000)
+104.236.92.145:8000
 
