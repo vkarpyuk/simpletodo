@@ -9,12 +9,12 @@ A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jque
 * [MongoDb](https://www.mongodb.com/) - Download and Install mongodb
 
 ## Step to configure
-1. Clone of fork this project
+1. Clone or fork this project
 2. cd to the cloned project folder
 3. sudo npm init
 4. npm i --save
 
-If you want dynamically rebuild you should install nodemon (-g stands for global)
+If you want dynamically rebuild the server you should install nodemon (-g stands for global). It will observes any changes and rebuild the server automatically.
 * sudo npm i nodemon -g
 
 ## Run 
