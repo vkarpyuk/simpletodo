@@ -20,12 +20,12 @@ If you want dynamically rebuild you should install nodemon (-g stands for global
 ## Run 
 To run the example go to the cloned project folder and type:
 
-### Run with node
+### * Run with node
 node server.js   
 
-### Run with nodemon
+### * Run with nodemon
 nodemon server.js
 
-### Run with [pm2](https://www.npmjs.com/package/pm2)
+### * Run with [pm2](https://www.npmjs.com/package/pm2)
 pm2 start server.js --name theNameYouWant
 
