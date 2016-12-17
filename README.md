@@ -30,3 +30,9 @@ nodemon server.js
 ### * Run with [pm2](https://www.npmjs.com/package/pm2)
 pm2 start server.js --name theNameYouWant
 
+## Start todoing
+Go and open your favorite browser. The simpletodo app with be available on **localhost:8000**
+
+## Live Example
+**  **
+
