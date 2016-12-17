@@ -14,11 +14,11 @@ A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jque
 3. sudo npm init
 4. npm i --save
 
-If you want dynamically rebuild the server you should install nodemon (-g stands for global). It will observes any changes and rebuild the server automatically.
+If you want dynamically rebuild the server you should install nodemon (-g stands for global). It will observes any changes and rebuild the server automatically. To install it, just type this command on your terminal.
 * sudo npm i nodemon -g
 
 ## Run 
-To run the example go to the cloned project folder and type:
+To run the example go to the cloned project's folder and then type one of the below commands:
 
 ### * Run with node
 node server.js   
