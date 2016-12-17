@@ -1,0 +1,34 @@
+{
+  "name": "simpletodo",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server"
+  },
+  "description": "simple api",
+  "main": "server.js",
+  "author": "vkarpyuk",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkarpyuk/simpletodo.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/vkarpyuk/simpletodo/issues"
+  },
+  "homepage": "https://github.com/vkarpyuk/simpletodo#readme"
+}
