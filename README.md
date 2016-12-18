@@ -1,5 +1,5 @@
 # simpletodo
-A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jquery and html5
+A simple todo app built with nodejs, express, mongodb, mongojs, javascript, jquery and html5
 
 # Steps to get ready:
 
