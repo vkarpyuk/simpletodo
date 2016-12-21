@@ -5,8 +5,8 @@ var express = require('express');
 var router = express.Router();
 
 //MLAB remote mongodb: projects
-// var DB = "mongodb://pmmanager:pmmanager1187@ds111748.mlab.com:11748/projects";
-var DB = "mongodb://todoUser:admin1234@localhost/todos";
+var DB = "mongodb://pmmanager:pmmanager1187@ds111748.mlab.com:11748/projects";
+// var DB = "mongodb://todoUser:admin1234@localhost/todos";
 var mongojs = require('mongojs');
 var db = mongojs(DB,['todos','alumnos']);
 
