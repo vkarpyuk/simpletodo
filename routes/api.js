@@ -19,9 +19,12 @@ router.post("/todo", function (request, response) {
     console.log("POST REQUEST:");
     console.log(request.body);
     console.log("-----------------------------------------");
-    db.todos.insert(JSON.stringify(request.body), function(error, doc){
+    console.log("post body with regular expression");
+    var todo = request.body.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    console.log(todo);
+    db.todos.insert(todo, function(error, doc){
         console.log("RESPONSE:");
-        console.log(doc);
+        console.log(doc.replace(/</g, "&lt;").replace(/>/g, "&gt;"));
         console.log("-----------------------------------------");
         if(error){
             console.log("ERROR: "+error);
