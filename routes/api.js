@@ -5,7 +5,8 @@ var express = require('express');
 var router = express.Router();
 
 //MLAB remote mongodb: projects
-var DB = "mongodb://pmmanager:pmmanager1187@ds111748.mlab.com:11748/projects";
+// var DB = "mongodb://pmmanager:pmmanager1187@ds111748.mlab.com:11748/projects";
+var DB = "mongodb://todoUser:admin1234@localhost/todos";
 var mongojs = require('mongojs');
 var db = mongojs(DB,['todos','alumnos']);
 
@@ -20,7 +21,7 @@ router.post("/todo", function (request, response) {
     console.log(request.body);
     console.log("-----------------------------------------");
     console.log("post body with regular expression");
-    var todo = request.body.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    var todo = request.body;
     console.log(todo);
     db.todos.insert(todo, function(error, doc){
         console.log("RESPONSE:");
