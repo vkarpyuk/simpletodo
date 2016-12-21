@@ -24,7 +24,7 @@ router.post("/todo", function (request, response) {
     console.log(todo);
     db.todos.insert(todo, function(error, doc){
         console.log("RESPONSE:");
-        console.log(doc.replace(/</g, "&lt;").replace(/>/g, "&gt;"));
+        console.log(doc);
         console.log("-----------------------------------------");
         if(error){
             console.log("ERROR: "+error);
