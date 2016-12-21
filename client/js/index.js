@@ -130,7 +130,7 @@ createRow = function(todo){
         $('<li id='+"li-"+todo._id+' class="list-group-item list-group-item-info">'+
             '<div class="row">'+
                 '<div class="col-sm-4">'+
-                    '<span id='+"name-"+todo._id+'>'+todo.name+'</span>'+
+                    '<span id='+"name-"+todo._id+'>'+"\""+todo.name+"\""+'</span>'+
                     '</div>'+
                 '<div class="col-sm-2">'+
                     '<div class="btn-group" role="group">'+
