@@ -1,5 +1,5 @@
 # simpletodo
-A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jquery and html5
+A simple todo app built with nodejs, express, mongodb, mongojs, javascript, jquery and html5
 
 # Steps to get ready:
 
@@ -18,7 +18,7 @@ A simple todo app build with nodejs, express, mongodb, mongojs, javascript, jque
 If you want dynamically rebuild the server you should install nodemon (-g stands for global). It will observes any changes and rebuild the server automatically. To install it, just type this command on your terminal.
 * sudo npm i nodemon -g
 
-## Run 
+## How to run? 
 To run the example go to the cloned project's folder and then type one of the below commands:
 
 ### * Run with node
@@ -34,5 +34,5 @@ pm2 start server.js --name theNameYouWant
 Go and open your favorite browser. The simpletodo app with be available on **localhost:8000**
 
 ## Live Example
-**  **
+104.236.92.145:8000
 
