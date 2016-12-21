@@ -19,7 +19,7 @@ router.post("/todo", function (request, response) {
     console.log("POST REQUEST:");
     console.log(request.body);
     console.log("-----------------------------------------");
-    db.todos.insert(request.body, function(error, doc){
+    db.todos.insert(JSON.stringify(request.body), function(error, doc){
         console.log("RESPONSE:");
         console.log(doc);
         console.log("-----------------------------------------");
